@@ -6,7 +6,9 @@
 
 # Node modules
 node_modules/
-
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
 # Build files
 dist/
 build/
