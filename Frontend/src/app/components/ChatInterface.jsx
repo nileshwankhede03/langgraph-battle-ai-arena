@@ -31,7 +31,7 @@ export default function ChatInterface() {
     e.preventDefault();
     if (!inputValue.trim()) return;
 
-    const response = await axios.post("https://langgraph-battle-ai-arena-1-296r.onrender.com/invoke", {
+    const response = await axios.post("https://langgraph-battle-ai-arena-4-51x8.onrender.com/invoke", {
       input: inputValue
     })
 
