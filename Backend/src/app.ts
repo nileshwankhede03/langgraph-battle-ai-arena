@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: 'https://langgraph-battle-ai-arena-2tr4.vercel.app/',
+    origin: 'https://langgraph-battle-ai-arena-2tr4.vercel.app',
     methods: ['GET', 'POST'],
     credentials: true,
   }),
